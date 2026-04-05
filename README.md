@@ -19,7 +19,7 @@ YourName_YourWhatsappNum/
 │   ├── 01_data_preprocessing.ipynb   ← Data cleaning & encoding
 │   └── 02_model_development.ipynb    ← Apriori & FP-Growth training
 ├── Application/
-│   ├── MBR App.py                    ← Streamlit recommender app
+│   ├── MBR_App.py                    ← Streamlit recommender app
 │   ├── model/
 │   │   └── fpgrowth_rules.pkl        ← Saved FP-Growth rules
 │   └── requirements.txt              ← Python dependencies
@@ -43,7 +43,7 @@ py -m pip install -r Application/requirements.txt
 ### 3. Run the Streamlit app
 ```bash
 cd Market Basket Analysis Application
-py -m streamlit run MBR App.py
+py -m streamlit run MBR_App.py
 ```
 
 ---
@@ -112,7 +112,7 @@ py -m streamlit run MBR App.py
 
 ## 🖥️ Web Application
 
-The Streamlit app (`MBR App.py`) allows users to:
+The Streamlit app (`MBR_App.py`) allows users to:
 
 1. Select any product from a dropdown (auto-populated from rules)
 2. Choose how many recommendations to display (1–20)
